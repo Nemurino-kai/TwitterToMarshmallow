@@ -29,7 +29,6 @@ function replaceTwitterBio() {
 
         // リンクの生成
         const icon = chrome.runtime.getURL("images/20marsh.png")
-        print(icon)
         const question = '<img src=' + icon + '><a href="https://marshmallow-qa.com/' + user_name + '" target="_blank" role="link" data-focusable="true" style="color:#00acee;"> <strong>' + description + '</strong></a>';
 
         // profileにリンクを挿入する
