@@ -30,7 +30,7 @@ function replaceTwitterBio() {
         if (this.status == 200) {
         
         // 説明文の生成
-        var description = user_name + "にマシュマロを投げる";
+        const description = user_name + "にマシュマロを投げる";
 
         // リンクの生成
         const icon = chrome.runtime.getURL("images/20marsh.png")
