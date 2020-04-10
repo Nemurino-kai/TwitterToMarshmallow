@@ -17,6 +17,11 @@ function replaceTwitterBio() {
     }
     document.body.setAttribute("data-user_name", user_name);
 
+    // 前に追加した要素があるなら消す
+    const items = profile.getElementsByClassName("question")
+    for(let i = 0; i < items.length; ++i) {
+        profile.removeChild(items[i]);
+    }
 
     const xhr = new XMLHttpRequest();
     xhr.onload = function() {
@@ -29,7 +34,7 @@ function replaceTwitterBio() {
 
         // リンクの生成
         const icon = chrome.runtime.getURL("images/20marsh.png")
-        const question = '<img src=' + icon + '><a href="https://marshmallow-qa.com/' + user_name + '" target="_blank" role="link" data-focusable="true" style="color:#00acee;"> <strong>' + description + '</strong></a>';
+        const question = '<div class="question"><img src=' + icon + '><a href="https://marshmallow-qa.com/' + user_name + '" target="_blank" role="link" data-focusable="true" style="color:#00acee;"> <strong>' + description + '</strong></a></div>';
 
         // profileにリンクを挿入する
         profile.insertAdjacentHTML("afterbegin", question);
