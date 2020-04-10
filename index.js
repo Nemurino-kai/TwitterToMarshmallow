@@ -37,7 +37,7 @@ function replaceTwitterBio() {
         }
 
     };
-    xhr.open("GET", "https://marshmallow-qa.com/" + user_name);
+    xhr.open("GET", "https://marshmallow-qa.com/" + user_name.toLocaleLowerCase());
     xhr.send();
 
 
