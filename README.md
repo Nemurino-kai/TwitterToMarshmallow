@@ -5,4 +5,6 @@
 
 上図のようにリンクが生成されるので、簡単にマシュマロを投げることができます。
 
+[こちらのリンクより、拡張機能を導入いただけます](https://chrome.google.com/webstore/detail/twittertomarshmallow/pibnbgfmabhhjkjmajoonedfmomlggmi/reviews?authuser=0&hl=ja)
+
 ※マシュマロは、匿名でメッセージや質問を送ることができるサービスです。
