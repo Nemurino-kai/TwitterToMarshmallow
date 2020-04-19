@@ -1,6 +1,6 @@
 {
 
-  "description": "jp",
+  "description": "Twitter内に、マシュマロを投げるリンクを追加",
   "manifest_version": 2,
   "name": "TwitterToMarshmallow",
   "version": "1.0.0",
