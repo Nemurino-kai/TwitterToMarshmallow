@@ -8,4 +8,5 @@
 [こちらのリンクより、拡張機能を導入いただけます](https://chrome.google.com/webstore/detail/twittertomarshmallow/pibnbgfmabhhjkjmajoonedfmomlggmi/reviews?authuser=0&hl=ja)
 
 ※マシュマロは、匿名でメッセージや質問を送ることができるサービスです。
+
 [解説記事はこちら](https://qiita.com/DoubleZ/items/10fb2f5896bbef408e5e)
